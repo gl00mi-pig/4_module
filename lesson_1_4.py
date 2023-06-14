@@ -17,7 +17,7 @@ def strcounter(string): # сложность O(n * m)
         print(symbol, counter)
 strcounter('aaaabbcdee')
 '''
-def strcounter(string):
+def strcounter(string): # сложность О(n)
     syms_counter = {}
     for symbol in string:
         syms_counter[symbol] = syms_counter.get(symbol, 0) + 1
